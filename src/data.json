@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "_id": "001",
+      "title": "ABC",
+      "description": "sdjkfh 09328",
+      "image": "/",
+      "price": 10
+    },
+    {
+      "_id": "002",
+      "title": "ABCD",
+      "description": "123212 sdjkfh 09328",
+      "image": "/",
+      "price": 110
+    }
+  ]
+}

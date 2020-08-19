@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    background-color: #546e7a;
+    color: #f0f0f0;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__main {
+    background-color: #f0f0f0;
+    flex-grow: 1;
+    padding: 80px 0 0 0;
+  }
+
+  &__footer {
+    background-color: #000000;
+    color: #f0f0f0;
+    height: 60px;
+  }
+}
