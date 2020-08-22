@@ -17,6 +17,7 @@ class Products extends Component {
                                     href={"#" + product._id}
                                     price={formatCurrency(product.price)}/>
                             </Suspense>
+                            <button onClick={() => {this.props.addToCart(product)}}>add</button>
                         </li>
                     ))}
                 </ul>
