@@ -1,0 +1,15 @@
+.ui-shopping-wr {
+  display: flex;
+  flex-direction: row;
+
+  > div {
+    flex-grow: 1;
+  }
+
+  .ui-shopping-cart {
+    width: 300px;
+    flex-grow: 0;
+    background: transparent;
+    border-left: 1px solid #dedede;
+  }
+}

@@ -1,17 +1,22 @@
-import React, {Component} from 'react';
+import React, {Component, lazy, Suspense} from 'react';
 import formatCurrency from "../util";
+const Product = lazy(() => import('./Product'));
 
 class Products extends Component {
     render() {
         return (
             <div>
                 <ul className="ui-products">
-                    {this.props.products.map( product => (
-                        <li key={product._id}>
-                            {product.title}
-                            <a href={"#" + product._id}>d</a>
-                            <h1>{formatCurrency(product.price)}</h1>
-                            <button>add</button>
+                    {this.props.products.map(product => (
+                        <li key={product._id} className="ui-product">
+                            <Suspense fallback={<h1 className="ui-loading">loading...</h1>}>
+                                <Product
+                                    image={product.image}
+                                    pname={product.pname}
+                                    pstore={product.pstore}
+                                    href={"#" + product._id}
+                                    price={formatCurrency(product.price)}/>
+                            </Suspense>
                         </li>
                     ))}
                 </ul>

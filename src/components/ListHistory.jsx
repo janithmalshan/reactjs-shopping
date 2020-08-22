@@ -3,7 +3,7 @@ import data from '../data';
 import Products from "./Products";
 import Filter from "./Filter";
 
-export class ListShopping extends React.Component {
+export class ListHistory extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -69,17 +69,12 @@ export class ListShopping extends React.Component {
 
     render() {
         return (
-            <div className="ui-shopping-wr">
-                <div>
-                    <Filter count={this.state.products.length}
-                            sort={this.state.sort}
-                            filterProducts={this.filterProducts}
-                            sortProducts={this.sortProducts}></Filter>
-                    <Products products={this.state.products}></Products>
-                </div>
-                <div className="ui-shopping-cart">
-                    <h1>Cart</h1>
-                </div>
+            <div>
+                <Filter count={this.state.products.length}
+                        sort={this.state.sort}
+                        filterProducts={this.filterProducts}
+                        sortProducts={this.sortProducts}></Filter>
+                <Products products={this.state.products}></Products>
             </div>
         )
     }
