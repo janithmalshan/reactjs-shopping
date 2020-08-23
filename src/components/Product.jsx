@@ -7,7 +7,7 @@ export default function Product(props) {
             <label className="ui-product__name">{props.pname}</label>
             <a href={props.href} className="ui-product__store">{props.pstore}</a>
             <div className="ui-product__price">{props.price}
-                <button>add</button>
+                <button onClick={props.onClick}>add</button>
             </div>
         </div>
     )

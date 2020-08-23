@@ -17,19 +17,22 @@ class App extends React.Component {
             <div className="app">
                 <header className="app__header">
                     <a href="/index">Home</a>
-                    <a href="/history">History</a>
+                    <a href="/old">History</a>
                     <a href="/home">Shop</a>
                 </header>
                 <main className="app__main">
                     <Router>
                         <Switch>
                             <Route path="/index">
+                                <h1>his</h1>
+                            </Route>
+                            <Route path="/old">
                                 {/*<ListShopping />*/}
                                 <h1>hi</h1>
+                                <ListHistory/>
                             </Route>
-                            <Route path="/history" component={ListHistory}/>
                             <Route path="/home" component={ListShopping}/>
-                            <Redirect to="/home"/>
+                            <Redirect to="/index"/>
                         </Switch>
                     </Router>
                 </main>

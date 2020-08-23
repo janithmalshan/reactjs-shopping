@@ -52,10 +52,11 @@ export class ListHistory extends React.Component {
     render() {
         return (
             <div>
-                <Filter count={this.state.products.length}
+{/*                <Filter count={this.state.products.length}
                         sort={this.state.sort}
                         filterProducts={this.filterProducts}
-                        sortProducts={this.sortProducts}></Filter>
+                        sortProducts={this.sortProducts}></Filter>*/}
+                        <p>poiuytrdcvbn</p>
                 {/*<Products products={this.state.products}></Products>*/}
             </div>
         )

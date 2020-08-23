@@ -1,14 +1,84 @@
 .ui-cart {
+  padding: 16px;
+
   ul {
     padding: 0;
   }
 
   &__item {
     display: flex;
+    padding: 6px 0;
+    align-items: center;
 
-    img {
-      height: 100px;
-      width: 100px;
+    &-img {
+      height: 80px;
+      width: 80px;
+      display: inline-table;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    &-name {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 500;
+      flex-grow: 1;
+    }
+
+    &-price {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 400;
+      margin: 0 8px;
+    }
+
+    button {
+      font-weight: 400;
+      color: #ffffff;
+      background: #ef5350;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      border-radius: 4px;
+      flex: 0;
+      height: 36px;
+      width: auto;
+      padding: 0 10px;
+      font-size: 12px;
+
+      &:hover {
+        cursor: pointer;
+        background: #e24744;
+      }
+    }
+  }
+
+  &-checkout {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-evenly;
+
+    .ui-checkout {
+      font-weight: 500;
+      color: #ffffff;
+      background: #8bc34a;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      border-radius: 4px;
+      flex: 0;
+      height: 48px;
+      width: auto;
+      padding: 0 10px;
+      font-size: 18px;
+      flex-grow: 0.5;
+
+      &:hover {
+        cursor: pointer;
+        background: #91d246;
+      }
     }
   }
 }
