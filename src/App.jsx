@@ -15,14 +15,14 @@ class App extends React.Component {
             <div className="app">
                 <header className="app__header">
                     <a href="/index">Home</a>
-                    <a href="/old">History</a>
+                    <a href="/orders">Orders</a>
                     <a href="/home">Shop</a>
                 </header>
                 <main className="app__main">
                     <Router>
                         <Switch>
                             <Route path="/index" component={Index}/>
-                            <Route path="/old" component={ListHistory}/>
+                            <Route path="/orders" component={ListHistory}/>
                             <Route path="/home" component={ListShopping}/>
                             <Redirect to="/index"/>
                         </Switch>

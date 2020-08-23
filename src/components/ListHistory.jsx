@@ -15,6 +15,8 @@ export class ListHistory extends React.Component {
 
     filterProducts = (event) => {
         const filterKey = event.target.value;
+        const filterDate = this.formatDate(filterKey);
+        console.log(filterDate);
         console.log(filterKey);
         this.setState({filter:filterKey})
             if(filterKey == null || filterKey === '') {
@@ -24,10 +26,17 @@ export class ListHistory extends React.Component {
             } else {
                 this.setState((state) =>({
                     filter: filterKey,
-                    products: data.products.filter((product)=>product.pname.toLowerCase().includes(filterKey.toLowerCase()) || product.pstore.toLowerCase().includes(filterKey.toLowerCase()))
+                    products: data.products.filter((product)=>product.pname.toLowerCase().includes(filterKey.toLowerCase()) || product.pstore.toLowerCase().includes(filterKey.toLowerCase()) ||
+                    this.formatDate(product.datetime) === filterDate)
                 }))
             }
     }
+
+    formatDate(string){
+        return new Date(string).toLocaleDateString();
+    }
+
+
 
     // sortProducts = (event) => {
     //     const sort = event.target.value;
