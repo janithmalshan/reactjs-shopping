@@ -9,3 +9,16 @@
   margin: 0;
   height: 100%;
 }
+
+.ui-carousel {
+
+  &-item {
+    height: calc( 100vh - 140px );
+  }
+
+  .carousel .slide p.legend {
+    font-size: 44px;
+    font-family: 'Baloo Chettan 2', SansSerif;
+    font-weight: 600;
+  }
+}

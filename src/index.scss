@@ -13,13 +13,25 @@ html {
   flex-direction: column;
 
   &__header {
-    background-color: #546e7a;
+    background-color: #0e0e0e;
     color: #f0f0f0;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+    a {
+      color: #f0f0f0;
+      font-size: 20px;
+      font-weight: 300;
+      margin: 0 16px;
+      text-decoration: none;
+    }
   }
 
   &__main {
@@ -32,5 +44,8 @@ html {
     background-color: #000000;
     color: #f0f0f0;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

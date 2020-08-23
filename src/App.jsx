@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import {ListShopping} from "./components/ListShopping";
 import {ListHistory} from "./components/ListHistory";
+import Index from "./components/Index";
 
 // const test = lazy(() => import('./components/test'))
 // const Test = React.lazy(() => import('./components/Product'));
@@ -23,21 +24,15 @@ class App extends React.Component {
                 <main className="app__main">
                     <Router>
                         <Switch>
-                            <Route path="/index">
-                                <h1>his</h1>
-                            </Route>
-                            <Route path="/old">
-                                {/*<ListShopping />*/}
-                                <h1>hi</h1>
-                                <ListHistory/>
-                            </Route>
+                            <Route path="/index" component={Index}/>
+                            <Route path="/old" component={ListHistory}/>
                             <Route path="/home" component={ListShopping}/>
                             <Redirect to="/index"/>
                         </Switch>
                     </Router>
                 </main>
                 <footer className="app__footer">
-                    footer
+                    © 2020
                 </footer>
             </div>
         );

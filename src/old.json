@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "_id": 1,
+      "pname": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "men clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    },
+    {
+      "_id": 2,
+      "pname": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "men clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+    },
+    {
+      "_id": 10,
+      "pname": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+    },
+    {
+      "_id": 11,
+      "pname": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": 109,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+    },
+    {
+      "_id": 12,
+      "pname": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+    },
+    {
+      "_id": 13,
+      "pname": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+    },
+    {
+      "_id": 14,
+      "pname": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultraw_ide Screen QLED ",
+      "price": 999.99,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+    },
+    {
+      "_id": 15,
+      "pname": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "women clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+    },
+    {
+      "_id": 16,
+      "pname": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "women clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+    },
+    {
+      "_id": 17,
+      "pname": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "women clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+    },
+    {
+      "_id": 18,
+      "pname": "MBJ Women's Sol_id Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "women clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+    },
+    {
+      "_id": 20,
+      "pname": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "datetime": "2020-08-10T13:45:00.000Z",
+      "pstore": "women clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+    }
+  ]
+}
