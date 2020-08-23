@@ -14,7 +14,7 @@ class Products extends Component {
                                     image={product.image}
                                     pname={product.pname}
                                     pstore={product.pstore}
-                                    href={"#" + product._id}
+                                    href="//www.google.com"
                                     price={formatCurrency(product.price)}
                                     onClick={() => {this.props.addToCart(product)}}/>
                             </Suspense>

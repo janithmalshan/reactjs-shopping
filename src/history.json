@@ -4,7 +4,7 @@
       "_id": 1,
       "pname": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
       "price": 109.95,
-      "datetime": "2020-08-10T13:45:00.000Z",
+      "datetime": "2020-08-10T19:45:00.000Z",
       "pstore": "men clothing",
       "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
     },
@@ -12,7 +12,7 @@
       "_id": 2,
       "pname": "Mens Casual Premium Slim Fit T-Shirts ",
       "price": 22.3,
-      "datetime": "2020-08-24T13:45:00.000Z",
+      "datetime": "2020-08-24T17:45:00.000Z",
       "pstore": "men clothing",
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
     },
@@ -20,7 +20,7 @@
       "_id": 10,
       "pname": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
       "price": 109,
-      "datetime": "2020-08-25T13:45:00.000Z",
+      "datetime": "2020-08-25T07:45:00.000Z",
       "pstore": "electronics",
       "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
     },
@@ -28,7 +28,7 @@
       "_id": 11,
       "pname": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
       "price": 109,
-      "datetime": "2020-08-24T13:45:00.000Z",
+      "datetime": "2020-08-24T01:45:00.000Z",
       "pstore": "electronics",
       "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
     },

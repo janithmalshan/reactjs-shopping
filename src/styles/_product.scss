@@ -134,17 +134,11 @@
 
       &__store {
         font-size: 16px;
-        //font-weight: 600;
-        //color: #8b8b8b;
-        //padding: 0 16px;
-        //box-sizing: border-box;
-        //display: block;
-        //text-transform: capitalize;
       }
 
       .ui-date {
-        background-color: #ddd;
         flex-grow: 1;
+        min-width: 240px;
         text-align: right;
       }
     }

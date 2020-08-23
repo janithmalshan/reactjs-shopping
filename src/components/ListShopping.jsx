@@ -65,18 +65,17 @@ export class ListShopping extends React.Component {
         return (
             <div className="ui-shopping-wr">
                 <div>
-                    <h1>{this.props.count}</h1>
-                    <div>sort {""}
-                        <select value={this.state.sort} onChange={this.sortProducts}>
+                    <h2>&nbsp; Sort {" "}
+                        <select className="ui-input" value={this.state.sort} onChange={this.sortProducts}>
                             <option value="latest">Latest</option>
                             <option value="lowest">Lowest</option>
                             <option value="highest">Highest</option>
                         </select>
-                    </div>
+                    </h2>
                     <Products products={this.state.products} addToCart={this.addToCart}></Products>
                 </div>
                 <div className="ui-shopping-cart">
-                    <h1>Cart</h1>
+                    <h2>Cart</h2>
                     <Cart cartItems={this.state.cartItems}
                           removeFromCart={this.removeFromCart}
                     />
