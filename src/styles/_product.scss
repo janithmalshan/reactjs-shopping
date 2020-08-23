@@ -91,3 +91,62 @@
     }
   }
 }
+
+.ui-history {
+  max-width: 800px;
+  margin: auto;
+  .ui-products {
+    grid-template-columns: 1fr;
+
+    .ui-product {
+      //border-radius: 4px;
+      //background-color: #ffffff;
+      border: none;
+      border-bottom: 1px solid #f0f0f0;
+      //list-style: none;
+      //margin: 0;
+      //padding: 0;
+      max-width: unset;
+      //width: 100%;
+      //height: 100%;
+      min-height: unset;
+      //display: flex;
+      //flex-direction: column;
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+        align-items: center;
+      }
+
+      &__img {
+        height: 100px;
+        width: 100px;
+        display: inline-table;
+        margin: 0;
+      }
+
+      &__name {
+        flex-grow: 1;
+      }
+
+      &__store {
+        font-size: 16px;
+        //font-weight: 600;
+        //color: #8b8b8b;
+        //padding: 0 16px;
+        //box-sizing: border-box;
+        //display: block;
+        //text-transform: capitalize;
+      }
+
+      .ui-date {
+        background-color: #ddd;
+        flex-grow: 1;
+        text-align: right;
+      }
+    }
+  }
+}

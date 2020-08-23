@@ -9,9 +9,6 @@ import {ListShopping} from "./components/ListShopping";
 import {ListHistory} from "./components/ListHistory";
 import Index from "./components/Index";
 
-// const test = lazy(() => import('./components/test'))
-// const Test = React.lazy(() => import('./components/Product'));
-
 class App extends React.Component {
     render() {
         return (

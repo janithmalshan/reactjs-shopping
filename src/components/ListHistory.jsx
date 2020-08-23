@@ -1,34 +1,33 @@
 import React from "react";
-import data from '../data';
-import Products from "./Products";
+import data from '../history';
+import HistoryProducts from "./HistoryProducts";
 import Filter from "./Filter";
 
 export class ListHistory extends React.Component {
-    // constructor() {
-    //     super();
-    //     this.state = {
-    //         products: data.products,
-    //         sort: "",
-    //         pname: "",
-    //         filter: ""
-    //     }
-    // }
+    constructor() {
+        super();
+        this.state = {
+            products: data.products,
+            pname: "",
+            filter: ""
+        }
+    }
 
-    // filterProducts = (event) => {
-    //     const filterKey = event.target.value;
-    //     console.log(filterKey);
-    //     this.setState({filter:filterKey})
-    //         if(filterKey == null || filterKey === '') {
-    //             this.setState((state) =>({
-    //                 products: data.products
-    //             }))
-    //         } else {
-    //             this.setState((state) =>({
-    //                 filter: filterKey,
-    //                 products: data.products.filter((product)=>product.pname.toLowerCase().includes(filterKey.toLowerCase()) || product.pstore.toLowerCase().includes(filterKey.toLowerCase()))
-    //             }))
-    //         }
-    // }
+    filterProducts = (event) => {
+        const filterKey = event.target.value;
+        console.log(filterKey);
+        this.setState({filter:filterKey})
+            if(filterKey == null || filterKey === '') {
+                this.setState((state) =>({
+                    products: data.products
+                }))
+            } else {
+                this.setState((state) =>({
+                    filter: filterKey,
+                    products: data.products.filter((product)=>product.pname.toLowerCase().includes(filterKey.toLowerCase()) || product.pstore.toLowerCase().includes(filterKey.toLowerCase()))
+                }))
+            }
+    }
 
     // sortProducts = (event) => {
     //     const sort = event.target.value;
@@ -52,12 +51,8 @@ export class ListHistory extends React.Component {
     render() {
         return (
             <div>
-{/*                <Filter count={this.state.products.length}
-                        sort={this.state.sort}
-                        filterProducts={this.filterProducts}
-                        sortProducts={this.sortProducts}></Filter>*/}
-                        <p>poiuytrdcvbn</p>
-                {/*<Products products={this.state.products}></Products>*/}
+                <Filter filterProducts={this.filterProducts}></Filter>
+                <HistoryProducts products={this.state.products}></HistoryProducts>
             </div>
         )
     }
